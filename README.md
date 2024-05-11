@@ -1,9 +1,5 @@
 <h1 align="center">Batalha de Heróis em JavaScript</h1>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
 ## 🚀 Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido utilizando:
