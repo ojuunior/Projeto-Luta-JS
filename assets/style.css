@@ -1,0 +1,77 @@
+
+/* Estilo para a área de luta */
+.fightarea {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* Estilo para a barra de vida */
+.lifebar {
+    background-color: #ddd;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden; /* Impede que a barra ultrapasse a borda arredondada */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Adiciona sombra à barra de vida */
+}
+
+/* Estilo para a parte preenchida da barra de vida */
+.bar {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s; /* Adiciona uma transição suave para a largura da barra */
+}
+
+/* Estilo para o botão de ataque */
+button.attackButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
+}
+
+button.attackButton:hover {
+    background-color: #45a049; /* Altera a cor de fundo quando o botão é hover */
+}
+
+/* Estilo para a lista de log */
+ul.log {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul.log li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Estilo para as mensagens de log */
+.log-message {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.log-message .emoji {
+    margin-right: 10px;
+}
+
+/* Estilo para a mensagem de morte */
+.log-message.death {
+    color: #ff6347; /* Cor vermelha para as mensagens de morte */
+}
